@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Label</key>
+		<string>cz.dzx.LedgerReport</string>
+		<key>Program</key>
+		<string>/Users/matousdz/ohmy/scripts/LedgerReport.sh</string>
+		<key>RunAtLoad</key>
+		<true/>
+		<key>StartCalendarInterval</key>
+		<dict>
+			<key>Day</key>
+			<integer>1</integer>
+			<key>Hour</key>
+			<integer>6</integer>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+		<key>StandardErrorPath</key>
+		<string>/Users/matousdz/ohmy/tasks/log.err</string>
+		<key>StandardOutPath</key>
+    <string>/Users/matousdz/ohmy/tasks/log.out</string>
+	</dict>
+</plist>
